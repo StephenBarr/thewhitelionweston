@@ -1,1 +1,28 @@
-/* CSS Styles */
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700,700italic,400italic);
+@font-face{font-family:'champignon';src:url('../fonts/champignon.eot');src:url('../fonts/champignon.eot?#iefix') format('embedded-opentype'),url('../fonts/champignon.woff2') format('woff2'),url('../fonts/champignon.woff') format('woff'),url('../fonts/champignon.ttf') format('truetype'),url('../fonts/champignon-webfont.svg#champignonregular') format('svg');font-weight: normal;font-style: normal}
+
+html,body{font-family:'Karla', sans-serif}
+.smooth{-webkit-transition:all 300ms ease-out;-moz-transition:all 300ms ease-out;-o-transition:all 300ms ease-out;transition:all 300ms ease-out}
+.carousel-control{background:none}
+.nopadding{padding:0px}
+
+.navbar{padding:12px 0;position:absolute;z-index:5;width:100%}
+.navbar-brand{font-family:Times, "Times New Roman", serif;text-transform:uppercase;font-size:26px;color:#FFF}
+.navbar-brand:hover{color:#FFF}
+.navbar-brand span{font-family:'Karla', sans-serif;text-transform:uppercase;font-size:15px;text-align:center;padding:0 44px}
+.navbar-nav li a{text-transform:uppercase;font-size:16px;color:#FFF;text-shadow:0 0 3px #404040;line-height:36px}
+.navbar-nav li a:hover{background:none}
+
+.container-fluid{overflow:hidden}
+
+.home{position:relative}
+.home .zone{width:100%;height:auto;z-index:0}
+.home .gradient{position:absolute;top:0px;display:block;width:100%;height:100%;background:-moz-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:-webkit-gradient(radial,center center,0px,center center,100%, color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,1)));background:-webkit-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:-o-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:-ms-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:radial-gradient(ellipse at center,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#000000',GradientType=1)}
+.home .box{position:absolute;top:50%;left:50%;margin-left:-150px;margin-top:-150px;z-index:1;border:3px solid #FFF;padding:24px;height:300px;width:300px;-webkit-transform:rotate(45deg)}
+.home .box img{-webkit-transform:rotate(-45deg);margin-left:15px}
+.home .text-content .col-lg-6:first-child h1{font-size:72px;font-weight:bold;text-transform:uppercase;text-align:center;font-family:Times, "Times New Roman", serif;font-weight:normal}
+.home .text-content .centred{padding:48px}
+.home .text-content .col-lg-6:last-child p{margin: 24px 0}
+.home .midspace,.home .midspace .col-lg-4{height:100%;position:relative}
+.home .midspace span{color:#FFF;text-transform:uppercase;font-size:36px;position:absolute;padding-left:24px}
+.home .midspace img{height:100%;width:auto}
