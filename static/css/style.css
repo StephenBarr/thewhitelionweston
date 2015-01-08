@@ -1,28 +1,67 @@
-@import url(http://fonts.googleapis.com/css?family=Karla:400,700,700italic,400italic);
-@font-face{font-family:'champignon';src:url('../fonts/champignon.eot');src:url('../fonts/champignon.eot?#iefix') format('embedded-opentype'),url('../fonts/champignon.woff2') format('woff2'),url('../fonts/champignon.woff') format('woff'),url('../fonts/champignon.ttf') format('truetype'),url('../fonts/champignon-webfont.svg#champignonregular') format('svg');font-weight: normal;font-style: normal}
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
 
 html,body{font-family:'Karla', sans-serif}
 .smooth{-webkit-transition:all 300ms ease-out;-moz-transition:all 300ms ease-out;-o-transition:all 300ms ease-out;transition:all 300ms ease-out}
 .carousel-control{background:none}
 .nopadding{padding:0px}
 
-.navbar{padding:12px 0;position:absolute;z-index:5;width:100%}
-.navbar-brand{font-family:Times, "Times New Roman", serif;text-transform:uppercase;font-size:26px;color:#FFF}
-.navbar-brand:hover{color:#FFF}
-.navbar-brand span{font-family:'Karla', sans-serif;text-transform:uppercase;font-size:15px;text-align:center;padding:0 44px}
-.navbar-nav li a{text-transform:uppercase;font-size:16px;color:#FFF;text-shadow:0 0 3px #404040;line-height:36px}
-.navbar-nav li a:hover{background:none}
-
-.container-fluid{overflow:hidden}
+.navbar{width:100%;margin-bottom:0;background:rgba(255,255,255,0.96);border:0px}
+.navbar .container{padding:12px 15px;border-bottom:1px solid #E2E2E2}
+.navbar-brand{font-family:Times, "Times New Roman", serif;text-transform:uppercase;font-size:33px;color:#939393}
+.navbar-brand:hover{color:#6B6B6B}
+.navbar-brand span{font-family:'Karla', sans-serif;text-transform:uppercase;font-size:18px;text-align:center;padding:0 60px}
+.navbar-nav li a{text-transform:uppercase;font-size:16px;color:#FFF;line-height:36px;color:#939393}
+.navbar-nav li a:hover{background:none;color:#6B6B6B}
+.navbar-nav li .underline{display:block;height:1px;width:0px;background:#939393}
+.navbar-nav li a:hover + .underline{width:100%}
 
 .home{position:relative}
-.home .zone{width:100%;height:auto;z-index:0}
-.home .gradient{position:absolute;top:0px;display:block;width:100%;height:100%;background:-moz-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:-webkit-gradient(radial,center center,0px,center center,100%, color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,1)));background:-webkit-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:-o-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:-ms-radial-gradient(center,ellipse cover,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:radial-gradient(ellipse at center,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#000000',GradientType=1)}
-.home .box{position:absolute;top:50%;left:50%;margin-left:-150px;margin-top:-150px;z-index:1;border:3px solid #FFF;padding:24px;height:300px;width:300px;-webkit-transform:rotate(45deg)}
-.home .box img{-webkit-transform:rotate(-45deg);margin-left:15px}
-.home .text-content .col-lg-6:first-child h1{font-size:72px;font-weight:bold;text-transform:uppercase;text-align:center;font-family:Times, "Times New Roman", serif;font-weight:normal}
-.home .text-content .centred{padding:48px}
-.home .text-content .col-lg-6:last-child p{margin: 24px 0}
-.home .midspace,.home .midspace .col-lg-4{height:100%;position:relative}
-.home .midspace span{color:#FFF;text-transform:uppercase;font-size:36px;position:absolute;padding-left:24px}
-.home .midspace img{height:100%;width:auto}
+.home.one{margin-top:92px}
+.home.one .logo{border-bottom:1px solid #E2E2E2;padding:0 15px 15px 15px}
+.home.one .logo img{width:100%}
+.home.one .col-lg-3{padding-top:15px}
+.home.one .col-lg-9{border-left:1px solid #E2E2E2;border-bottom:1px solid #E2E2E2;padding:15px 0 15px 15px}
+.home.one .col-lg-9 img{width:100%;height:auto}
+.home.one .social{background:rgba(255,255,255,0.96);z-index:1}
+.home.one .social a:first-child{border-right:1px solid #E2E2E2}
+.home.one .social a{width:50%;display:inline-block;text-align:center;padding:12px 0;border-bottom:1px solid #E2E2E2;color:#939393}
+.home.one .social a:hover{background:rgba(0,0,0,0.03)}
+.home.one .fade-slide{list-style-type:none;padding:0px}
+
+.home.two .col-lg-3{text-align:right}
+.home.two .col-lg-3 h1{font-size:42px}
+.home.two .col-lg-9{border-left:1px solid #E2E2E2;border-bottom:1px solid #E2E2E2;padding:15px 0 15px 15px;font-size:17px;font-family:'Roboto', sans-serif;}
+.home.two .col-lg-9 p{margin-bottom:36px}
+.home.two .col-lg-9 p:last-child{margin-bottom:0px}
+
+.home.three .col-lg-3{text-align:right}
+.home.three .col-lg-3 h1{font-size:42px}
+.home.three .col-lg-9{padding:15px 0 15px 15px;border-left:1px solid #E2E2E2;border-bottom:1px solid #E2E2E2}
+.home.three .row:last-child .col-lg-9{border-bottom:0px}
+.home.three .col-lg-9 .midlink{position:relative;display:block}
+.home.three .col-lg-9 .midlink span{position:absolute;opacity:0;top:42%;left:0px;color:#000;font-size:18px;text-transform:uppercase;line-height:48px;width:100%;text-align:center}
+.home.three .col-lg-9 .midlink:hover img{-webkit-filter:grayscale(100%);opacity:0.33}
+.home.three .col-lg-9 .midlink:hover span{opacity:1;}
+.home.three .col-lg-9 .midlink img{width:100%;height:auto}
+
+.footer{border-top:1px solid #E2E2E2}
+.footer .col-lg-5 p,.footer label{font-size:15px;font-weight:normal}
+.footer .col-lg-4{border-left:1px solid #E2E2E2;border-right:1px solid #E2E2E2}
+.footer .col-lg-4 ul{list-style-type:none;padding:0;font-size:18px;margin-top:24px}
+.footer .col-lg-4 ul li{margin-bottom:9px}
+.footer h4{margin:24px 0}
+.footer a{text-decoration:none;color:#939393}
+.footer a:hover{color:#6B6B6B}
+.footer input{border-radius:0;margin:12px 0}
+.footer .btn{border-radius:0;margin:12px 0}
+.footer .row:last-child{border-top:1px solid #E2E2E2;text-align:center;padding:24px 0 18px}
+
+@media(max-width:767px){
+	
+}
+@media(min-width:768px){
+	.navbar-nav a{padding:10px 9px}
+}
+@media(min-width:992px){}
+@media(min-width:1200px){}
