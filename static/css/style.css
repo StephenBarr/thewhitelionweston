@@ -1,61 +1,53 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
 
-html,body{font-family:'Karla', sans-serif}
+html,body{font-family:'Karla', sans-serif;background:url(../images/pattern.jpg) no-repeat center center}
 .smooth{-webkit-transition:all 300ms ease-out;-moz-transition:all 300ms ease-out;-o-transition:all 300ms ease-out;transition:all 300ms ease-out}
 .carousel-control{background:none}
 .nopadding{padding:0px}
+.break{width:50%;height:auto;margin-top:48px}
 
-.navbar{width:100%;margin-bottom:0;background:rgba(255,255,255,0.96);border:0px}
-.navbar .container{padding:12px 15px;border-bottom:1px solid #E2E2E2}
-.navbar-brand{font-family:Times, "Times New Roman", serif;text-transform:uppercase;font-size:33px;color:#939393}
-.navbar-brand:hover{color:#6B6B6B}
-.navbar-brand span{font-family:'Karla', sans-serif;text-transform:uppercase;font-size:18px;text-align:center;padding:0 60px}
-.navbar-nav li a{text-transform:uppercase;font-size:16px;color:#FFF;line-height:36px;color:#939393}
-.navbar-nav li a:hover{background:none;color:#6B6B6B}
-.navbar-nav li .underline{display:block;height:1px;width:0px;background:#939393}
-.navbar-nav li a:hover + .underline{width:100%}
+.navbar{width:100%;margin-bottom:0;padding:48px 72px;border:0px;position:absolute;top:0px;z-index:5}
+.navbar-nav{margin:30px auto;text-align:center;width:100%}
+.navbar-nav li{float:none;display:inline-block}
+.navbar-nav li a{text-transform:uppercase;font-size:18px;color:#FFF;padding:12px 36px}
+.navbar-nav li a:hover{background:none;color:#B7B7B7}
 
-.home{position:relative}
-.home.one{margin-top:92px}
-.home.one .logo{border-bottom:1px solid #E2E2E2;padding:0 15px 15px 15px}
-.home.one .logo img{width:100%}
-.home.one .col-lg-3{padding-top:15px}
-.home.one .col-lg-9{border-left:1px solid #E2E2E2;border-bottom:1px solid #E2E2E2;padding:15px 0 15px 15px}
-.home.one .col-lg-9 img{width:100%;height:auto}
-.home.one .social{background:rgba(255,255,255,0.96);z-index:1}
-.home.one .social a:first-child{border-right:1px solid #E2E2E2}
-.home.one .social a{width:50%;display:inline-block;text-align:center;padding:12px 0;border-bottom:1px solid #E2E2E2;color:#939393}
-.home.one .social a:hover{background:rgba(0,0,0,0.03)}
-.home.one .fade-slide{list-style-type:none;padding:0px}
+.home.one{height:960px;background:#2A2A2A;z-index:0;background:url(../images/home_full.jpg) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
+.home.one .header{margin-top:585px;text-align:center}
+.home.one .logo img{width:120px;height:auto;margin-bottom:30px}
+.home.one h1{font-family:Times, "Times New Roman", serif;color:#FFF;text-transform:uppercase}
+.home.one h4{color:#FFF;text-transform:uppercase}
 
-.home.two .col-lg-3{text-align:right}
-.home.two .col-lg-3 h1{font-size:42px}
-.home.two .col-lg-9{border-left:1px solid #E2E2E2;border-bottom:1px solid #E2E2E2;padding:15px 0 15px 15px;font-size:17px;font-family:'Roboto', sans-serif;}
-.home.two .col-lg-9 p{margin-bottom:36px}
-.home.two .col-lg-9 p:last-child{margin-bottom:0px}
+.home.two{margin-top:96px}
+.home.two h1{font-size:60px;text-transform:uppercase;font-weight:400;font-family:'IM Fell DW Pica', serif}
+.home.two p,.home.four p{font-size:17px;font-family:'Roboto', serif;text-align:justify;text-justify:inter-word}
+.home.two .col-lg-6,.home.four .col-lg-6{margin-top:66px}
 
-.home.three .col-lg-3{text-align:right}
-.home.three .col-lg-3 h1{font-size:42px}
-.home.three .col-lg-9{padding:15px 0 15px 15px;border-left:1px solid #E2E2E2;border-bottom:1px solid #E2E2E2}
-.home.three .row:last-child .col-lg-9{border-bottom:0px}
-.home.three .col-lg-9 .midlink{position:relative;display:block}
-.home.three .col-lg-9 .midlink span{position:absolute;opacity:0;top:42%;left:0px;color:#000;font-size:18px;text-transform:uppercase;line-height:48px;width:100%;text-align:center}
-.home.three .col-lg-9 .midlink:hover img{-webkit-filter:grayscale(100%);opacity:0.33}
-.home.three .col-lg-9 .midlink:hover span{opacity:1;}
-.home.three .col-lg-9 .midlink img{width:100%;height:auto}
+.home.three {margin-top:96px}
+.home.three h1{font-size:18px;text-align:center;font-family:'IM Fell DW Pica', serif;text-transform:uppercase;margin:24px 0}
+.home.three p{font-size:15px;text-align:center;margin:0 15%}
+.home.three .midlink{width:100%;display:block;position:relative}
+.home.three .midlink span{position:absolute;opacity:0;top:42%;left:0px;color:#000;font-size:18px;text-transform:uppercase;line-height:48px;width:100%;text-align:center}
+.home.three .midlink:hover img{-webkit-filter:grayscale(100%);opacity:0.33}
+.home.three .midlink:hover span{opacity:1;}
+.home.three .midlink img{width:100%;height:auto}
 
-.footer{border-top:1px solid #E2E2E2}
-.footer .col-lg-5 p,.footer label{font-size:15px;font-weight:normal}
-.footer .col-lg-4{border-left:1px solid #E2E2E2;border-right:1px solid #E2E2E2}
-.footer .col-lg-4 ul{list-style-type:none;padding:0;font-size:18px;margin-top:24px}
-.footer .col-lg-4 ul li{margin-bottom:9px}
+.home.four{margin-top:36px}
+
+.bottom{background:#2A2A2A;margin-top:96px;background:url(../images/bottom.jpg)}
+.footer{margin-top:96px;color:#FFF}
+.footer p{font-size:15px}
+.footer label{font-size:15px;font-weight:normal;margin-top:18px}
+.footer ul{list-style-type:none;padding:0;font-size:18px;margin-top:24px}
+.footer ul li{margin-bottom:9px}
 .footer h4{margin:24px 0}
-.footer a{text-decoration:none;color:#939393}
-.footer a:hover{color:#6B6B6B}
-.footer input{border-radius:0;margin:12px 0}
-.footer .btn{border-radius:0;margin:12px 0}
-.footer .row:last-child{border-top:1px solid #E2E2E2;text-align:center;padding:24px 0 18px}
+.footer a{text-decoration:none;color:#fff}
+.footer a:hover{color:#AEAEAE}
+.footer input{border-radius:0;margin:12px 0;width:84%;background:rgba(255,255,255,0.1);color:#FFF}
+.footer .btn{border-radius:0;margin:12px 0;background:#3B3B3B;border-color:#565656;color:#FFF}
+.footer .row:last-child{margin-top:48px;text-align:center;padding:24px 0 48px}
 
 @media(max-width:767px){
 	

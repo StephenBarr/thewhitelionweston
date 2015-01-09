@@ -16,20 +16,20 @@
 <![endif]-->
 </head>
 <body>
-<nav class="navbar navbar-fixed-top smooth" role="navigation">
+<nav class="navbar" role="navigation">
   <div class="container smooth">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#rgn-navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="<?php echo BASE_URL; ?>">The White Lion<br /><span>Eat/Drink/Sleep</span></a> </div>
-    <div class="collapse navbar-collapse" id="rgn-navbar">
-      <ul class="nav navbar-nav navbar-right smooth">
-        <li><a href="<?php echo BASE_URL; ?>">Home</a><div class="underline smooth"></li>
-        <li><a href="<?php echo BASE_URL; ?>about">Restaurant</a><div class="underline smooth"></li>
-        <li><a href="<?php echo BASE_URL; ?>orangeries">Lounge Bar</a><div class="underline smooth"></li>
-        <li><a href="<?php echo BASE_URL; ?>landscaping">Hotel</a><div class="underline smooth"></li>
-        <li><a href="<?php echo BASE_URL; ?>driveways">Conferences</a><div class="underline smooth"></li>
-        <li><a href="<?php echo BASE_URL; ?>nursery">Gallery</a><div class="underline smooth"></li>
-        <li><a href="<?php echo BASE_URL; ?>visit">Contact</a><div class="underline smooth"></li>
+       </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse" id="rgn-navbar">
+      <ul class="nav navbar-nav">
+        <li><a href="<?php echo BASE_URL; ?>" class="smooth">Home</a></li>
+        <li><a href="<?php echo BASE_URL; ?>about" class="smooth">Restaurant</a></li>
+        <li><a href="<?php echo BASE_URL; ?>orangeries" class="smooth">Lounge Bar</a></li>
+        <li><a href="<?php echo BASE_URL; ?>landscaping" class="smooth">Hotel</a></li>
+        <li><a href="<?php echo BASE_URL; ?>driveways" class="smooth">Conferences</a></li>
+        <li><a href="<?php echo BASE_URL; ?>nursery" class="smooth">Gallery</a></li>
+        <li><a href="<?php echo BASE_URL; ?>visit" class="smooth">Contact</a></li>
       </ul>
     </div>
   </div>

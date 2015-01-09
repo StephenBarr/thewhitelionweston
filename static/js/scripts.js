@@ -1,15 +1,10 @@
 $(document).ready(function() {
   
 	$(window).scroll(function(){
-		//Social icon fit
-		if($(window).scrollTop() > 384) {
-			$('.social').css({'position': 'fixed', 'top': '92px', 'width': $('.container.one .col-lg-3').width()});
-		} else {
-			$('.social').css({'position': '', 'width': ''});
-		}
+		//top background slide
+		$('.home.one').css('backgroundPosition', 'center ' + $(window).scrollTop()/5 + 'px');
+		//Bottom background slide
+		$('.bottom').css('backgroundPosition', 'center ' + 180 + $(window).scrollTop()/5 + 'px');
 	});
-	
-	//Slideshow
-	$('.fade-slide').responsiveSlides({timeout: 2000, speed: 1000, random: true});
 	
 });
