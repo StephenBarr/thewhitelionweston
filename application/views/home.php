@@ -8,12 +8,18 @@
 </div>
 <div class="container two home">
   <div class="row">
-	<div class="col-lg-4"></div>
-    <div class="col-lg-4 text-center">
+	<div class="col-lg-3"></div>
+    <div class="col-lg-6 text-center">
       <h1>Welcome</h1>
+    </div>
+    <div class="col-lg-3"></div>
+  </div>
+  <div class="row">
+	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
       <img class="break" src="<?php echo BASE_URL; ?>static/images/break.png" />
     </div>
-    <div class="col-lg-4"></div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
   </div>
   <div class="row">
     <div class="col-lg-3"></div>
@@ -64,11 +70,11 @@
     <div class="col-lg-3"></div>
   </div>
    <div class="row">
-	<div class="col-lg-4"></div>
-    <div class="col-lg-4 text-center">
+	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
       <img class="break" src="<?php echo BASE_URL; ?>static/images/break.png" />
     </div>
-    <div class="col-lg-4"></div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
   </div>
 </div>
 <?php include('footer.php'); ?>

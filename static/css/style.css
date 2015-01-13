@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700);
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,500,700);
 
 html,body{font-family:'Karla', sans-serif;background:url(../images/pattern.jpg) center center}
 .smooth{-webkit-transition:all 300ms ease-out;-moz-transition:all 300ms ease-out;-o-transition:all 300ms ease-out;transition:all 300ms ease-out}
 .carousel-control{background:none}
 .nopadding{padding:0px}
 .break{width:50%;height:auto;margin-top:48px}
+.carousel{margin-top:96px}
 
 .navbar{width:100%;margin-bottom:0;padding:48px 72px;border:0px;position:absolute;top:0px;z-index:5}
 .navbar-nav{margin:30px auto;text-align:center;width:100%}
@@ -13,27 +14,48 @@ html,body{font-family:'Karla', sans-serif;background:url(../images/pattern.jpg) 
 .navbar-nav li a{text-transform:uppercase;font-size:18px;color:#FFF;padding:12px 36px}
 .navbar-nav li a:hover{background:none;color:#B7B7B7}
 
-.home.one{height:960px;background:#2A2A2A;z-index:0;background:url(../images/home_full.jpg) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
-.home.one .header{margin-top:585px;text-align:center}
-.home.one .logo img{width:120px;height:auto;margin-bottom:30px}
-.home.one h1{font-family:Times, "Times New Roman", serif;color:#FFF;text-transform:uppercase}
-.home.one h4{color:#FFF;text-transform:uppercase}
+.one{height:960px;position:relative;background:#2A2A2A;z-index:0;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
+.one .header{position:absolute;bottom:96px;width:100%;text-align:center}
+.one .logo img{width:120px;height:auto;margin-bottom:30px}
+.one h1{font-family:Times, "Times New Roman", serif;color:#FFF;text-transform:uppercase}
+.one h4{color:#FFF;text-transform:uppercase}
 
-.home.two{margin-top:96px}
-.home.two h1{font-size:72px;text-transform:uppercase;font-weight:400;font-family:'Karla', serif}
-.home.two p,.home.four p{font-size:17px;font-family:'Roboto', serif;text-align:justify;text-justify:inter-word}
-.home.two .col-lg-6,.home.four .col-lg-6{margin-top:66px}
+.home.one{background:url(../images/home_full.jpg) no-repeat top center}
+.about.one{background:url(../images/about_full.jpg) no-repeat top center}
+.lounge.one{background:url(../images/lounge_full.jpg) no-repeat top center}
 
-.home.three {margin-top:96px}
-.home.three h1{font-size:18px;text-align:center;font-family:'Roboto', serif;font-weight:700;text-transform:uppercase;margin:24px 0}
-.home.three p{font-size:15px;text-align:center;margin:0 15%}
-.home.three .midlink{width:100%;display:block;position:relative}
-.home.three .midlink span{position:absolute;opacity:0;top:42%;left:0px;color:#000;font-size:18px;text-transform:uppercase;line-height:48px;width:100%;text-align:center}
-.home.three .midlink:hover img{-webkit-filter:grayscale(100%);opacity:0.33}
-.home.three .midlink:hover span{opacity:1;}
-.home.three .midlink img{width:100%;height:auto}
+.menu h2{text-transform:uppercase;font-weight:300;font-family:'Roboto', serif;margin:48px;line-height:42px}
+.menu h3{text-transform:uppercase;font-weight:300;font-family:'Roboto', serif;color:#e27a40;font-size:30px}
+.menu small{color:#e27a40}
+.menu .table{font-weight:300;font-family:'Roboto', serif;color:#707070;font-size:17px}
+.menu .table tr td{border:none}
+.menu .table tr td:first-child{padding-left:0px}
+.menu .table tr td:nth-child(2),.about.menu .table tr td:nth-child(3),.about.menu .table tr td:nth-child(4){font-weight:500}
+.menu .ob{border:1px solid #e27a40;padding:0 24px;margin-bottom:24px}
+.menu p{font-weight:300;font-family:'Roboto', serif;color:#707070;font-size:17px}
+.menu .ob p{font-weight:500;font-family:'Roboto', serif;color:#707070;font-size:17px}
+.menu .ob .table tr td:nth-child(3){font-weight:300}
+.menu .ob.dw h3{margin-bottom:24px}
+.menu .ob.dw{padding-bottom:24px}
+.menu .ob.dw p{font-weight:300;margin-bottom:12px}
+.menu strong{font-family:'Roboto', serif;color:#707070;font-size:17px}
 
-.home.four{margin-top:36px}
+.two{margin-top:96px}
+.two h1{font-size:72px;text-transform:uppercase;font-weight:400;font-family:'Karla', serif}
+.two h2{font-size:30px;text-transform:uppercase;font-weight:300;font-family:'Roboto', serif;margin-bottom:48px;line-height:42px}
+.two p,.four p{font-size:17px;font-weight:300;font-family:'Roboto', serif;text-align:justify;text-justify:inter-word}
+.two .col-lg-6,.four .col-lg-6{margin-top:66px}
+
+.three {margin-top:96px}
+.three h1{font-size:18px;text-align:center;font-family:'Roboto', serif;font-weight:700;text-transform:uppercase;margin:24px 0}
+.three p{font-size:15px;text-align:center;margin:0 15%}
+.three .midlink{width:100%;display:block;position:relative}
+.three .midlink span{position:absolute;opacity:0;top:42%;left:0px;color:#000;font-size:18px;text-transform:uppercase;line-height:48px;width:100%;text-align:center}
+.three .midlink:hover img{-webkit-filter:grayscale(100%);opacity:0.33}
+.three .midlink:hover span{opacity:1;}
+.three .midlink img{width:100%;height:auto}
+
+.four{margin-top:36px}
 
 .bottom{background:#2A2A2A;margin-top:96px;background:url(../images/bottom.jpg)}
 .footer{margin-top:96px;color:#FFF}
