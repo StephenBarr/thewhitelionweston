@@ -14,15 +14,18 @@ html,body{font-family:'Karla', sans-serif;background:url(../images/pattern.jpg) 
 .navbar-nav li a{text-transform:uppercase;font-size:18px;color:#FFF;padding:12px 36px}
 .navbar-nav li a:hover{background:none;color:#B7B7B7}
 
-.one{height:960px;position:relative;background:#2A2A2A;z-index:0;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
+.one{height:960px;position:relative;background:#2A2A2A;z-index:0}
 .one .header{position:absolute;bottom:96px;width:100%;text-align:center}
 .one .logo img{width:120px;height:auto;margin-bottom:30px}
 .one h1{font-family:Times, "Times New Roman", serif;color:#FFF;text-transform:uppercase}
 .one h4{color:#FFF;text-transform:uppercase}
 
-.home.one{background:url(../images/home_full.jpg) no-repeat top center}
-.about.one{background:url(../images/about_full.jpg) no-repeat top center}
-.lounge.one{background:url(../images/lounge_full.jpg) no-repeat top center}
+.home.one{background:url(../images/home_full.jpg) no-repeat center top}
+.about.one{background:url(../images/about_full.jpg) no-repeat center top}
+.lounge.one{background:url(../images/lounge_full.jpg) no-repeat center top}
+.hotel.one{background:url(../images/hotel_full.jpg) no-repeat center top}
+.conferences.one{background:url(../images/conferences_full.jpg) no-repeat center top}
+.gallery.one{background:url(../images/gallery_full.jpg) no-repeat center top}
 
 .menu h2{text-transform:uppercase;font-weight:300;font-family:'Roboto', serif;margin:48px;line-height:42px}
 .menu h3{text-transform:uppercase;font-weight:300;font-family:'Roboto', serif;color:#e27a40;font-size:30px}
@@ -45,6 +48,10 @@ html,body{font-family:'Karla', sans-serif;background:url(../images/pattern.jpg) 
 .two h2{font-size:30px;text-transform:uppercase;font-weight:300;font-family:'Roboto', serif;margin-bottom:48px;line-height:42px}
 .two p,.four p{font-size:17px;font-weight:300;font-family:'Roboto', serif;text-align:justify;text-justify:inter-word}
 .two .col-lg-6,.four .col-lg-6{margin-top:66px}
+
+.hotel_{margin-top:0px}
+
+.contact.two p{text-align:center}
 
 .three {margin-top:96px}
 .three h1{font-size:18px;text-align:center;font-family:'Roboto', serif;font-weight:700;text-transform:uppercase;margin:24px 0}
