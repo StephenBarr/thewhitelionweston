@@ -8,11 +8,9 @@ html,body{font-family:'Karla', sans-serif;background:url(../images/pattern.jpg) 
 .break{width:50%;height:auto;margin-top:48px}
 .carousel{margin-top:96px}
 
-.navbar{width:100%;margin-bottom:0;padding:48px 72px;border:0px;position:absolute;top:0px;z-index:5}
-.navbar-nav{margin:30px auto;text-align:center;width:100%}
-.navbar-nav li{float:none;display:inline-block}
-.navbar-nav li a{text-transform:uppercase;font-size:18px;color:#FFF;padding:12px 36px}
-.navbar-nav li a:hover{background:none;color:#B7B7B7}
+.navbar{padding:96px 72px 0;border:0px;background:none;position:absolute;top:0px;z-index:5;width:100%}
+.navbar-nav li a{text-transform:uppercase;font-size:18px;color:#FFF !important;padding:12px 36px}
+.navbar-nav li a:hover{background:none;color:#B7B7B7 !important}
 
 .one{height:960px;position:relative;background:#2A2A2A;z-index:0}
 .one .header{position:absolute;bottom:96px;width:100%;text-align:center}
@@ -26,6 +24,7 @@ html,body{font-family:'Karla', sans-serif;background:url(../images/pattern.jpg) 
 .hotel.one{background:url(../images/hotel_full.jpg) no-repeat center top}
 .conferences.one{background:url(../images/conferences_full.jpg) no-repeat center top}
 .gallery.one{background:url(../images/gallery_full.jpg) no-repeat center top}
+.contact.one{background:url(../images/contact_full.jpg) no-repeat center top}
 
 .menu h2{text-transform:uppercase;font-weight:300;font-family:'Roboto', serif;margin:48px;line-height:42px}
 .menu h3{text-transform:uppercase;font-weight:300;font-family:'Roboto', serif;color:#e27a40;font-size:30px}
@@ -52,6 +51,7 @@ html,body{font-family:'Karla', sans-serif;background:url(../images/pattern.jpg) 
 .hotel_{margin-top:0px}
 
 .contact.two p{text-align:center}
+.contact .map{height:540px;margin-top:96px;-webkit-box-shadow:0px 0px 9px 0px rgba(50, 50, 50, 0.33);-moz-box-shadow:0px 0px 9px 0px rgba(50, 50, 50, 0.33);box-shadow:0px 0px 9px 0px rgba(50, 50, 50, 0.33)}
 
 .three {margin-top:96px}
 .three h1{font-size:18px;text-align:center;font-family:'Roboto', serif;font-weight:700;text-transform:uppercase;margin:24px 0}
@@ -78,10 +78,21 @@ html,body{font-family:'Karla', sans-serif;background:url(../images/pattern.jpg) 
 .footer .row:last-child{margin-top:48px;text-align:center;padding:24px 0 48px}
 
 @media(max-width:767px){
-	
+	.contact .map{height:360px}
 }
 @media(min-width:768px){
-	.navbar-nav a{padding:10px 9px}
+	.navbar-nav{float:none;margin: 0 auto;display:table;table-layout:fixed}
 }
-@media(min-width:992px){}
+@media(max-width:992px){
+	.navbar{padding-top:54px !important}
+	.navbar-nav li a{padding:12px 15px !important;font-size:15px}
+	.one .header{bottom:54px}
+	.one h1{font-size:24px}
+	.one h4{font-size:15px}
+	.one .logo .img{width:84px;margin-bottom:12px}
+}
 @media(min-width:1200px){}
+@media(max-width:1260px){
+	.navbar{padding:96px 24px 0}
+	.navbar-nav li a{padding:12px 24px}
+}

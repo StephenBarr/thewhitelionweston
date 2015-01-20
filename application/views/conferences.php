@@ -30,15 +30,15 @@
 </div>
 <div class="container three conferences">
   <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4"> <a href="#" class="midlink"> <img src="<?php echo BASE_URL; ?>static/images/home_2.jpg" class="smooth" /> <span class="smooth">Click to read more</span> </a>
-      <h1>Conferences</h1>
-      <p>The White Lion has a private meeting and function room available for hire.</p>
+    <div class="col-lg-4 col-md-4 col-sm-4"> <a href="<?php echo BASE_URL; ?>hotel/" class="midlink"> <img src="<?php echo BASE_URL; ?>static/images/home_6.jpg" class="smooth" /> <span class="smooth">Click to read more</span> </a>
+      <h1>Hotel</h1>
+      <p>Find out more about our accomodations and bed and breakfast services.</p>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-4"> <a href="#" class="midlink"> <img src="<?php echo BASE_URL; ?>static/images/home_3.jpg" class="smooth" /> <span class="smooth">Click to read more</span> </a>
+    <div class="col-lg-4 col-md-4 col-sm-4"> <a href="<?php echo BASE_URL; ?>menus/" class="midlink"> <img src="<?php echo BASE_URL; ?>static/images/home_3.jpg" class="smooth" /> <span class="smooth">Click to read more</span> </a>
       <h1>Menus</h1>
       <p>Here you can download our Restaurant Menu, Drinks Book and Wine Cellar List.</p>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-4"> <a href="#" class="midlink"> <img src="<?php echo BASE_URL; ?>static/images/home_4.jpg" class="smooth" /> <span class="smooth">Click to read more</span> </a>
+    <div class="col-lg-4 col-md-4 col-sm-4"> <a href="<?php echo BASE_URL; ?>gallery/" class="midlink"> <img src="<?php echo BASE_URL; ?>static/images/home_4.jpg" class="smooth" /> <span class="smooth">Click to read more</span> </a>
       <h1>Gallery</h1>
       <p>Go thorough a collection of photographs of the restaurant and pub here.</p>
     </div>

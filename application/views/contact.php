@@ -19,6 +19,11 @@
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
   </div>
   <div class="row">
+    <div class="col-lg-12">
+      <div class="map" id="map-canvas"></div>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-lg-3"></div>
     <div class="col-lg-6 text-center">
       <h2>Why not get in touch...</h2>
@@ -29,7 +34,17 @@
 		Cheshire<br />
 		CW2 5NA<br />
 		Telephone : 01270 587 011<br />
-		Email : relax@thewhitelionweston.com</p>
+		Email : <a href="mailto:relax@thewhitelionweston.com">relax@thewhitelionweston.com</a></p>
+      <p>Please Note: Some Sat Nav systems using this postcode do not direct you here - please check your route.</p>
+    </div>
+    <div class="col-lg-3"></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6 text-center">
+      <h2>Career Opportunities</h2>
+      <p>We are always on the look out for like-minded people to join our team, whether that be front of house, in the kitchen, hotel reception or housekeeping.</p>
+	  <p>If you are interested in joining ‘Team Lion’, please feel free to either post a copy of your CV or email; <a href="mailto:confidential@thewhitelionweston.com">confidential@thewhitelionweston.com</a></p>
     </div>
     <div class="col-lg-3"></div>
   </div>

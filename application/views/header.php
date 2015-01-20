@@ -16,21 +16,24 @@
 <![endif]-->
 </head>
 <body>
-<nav class="navbar" role="navigation">
-  <div class="container smooth">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#rgn-navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-       </div>
-    <div class="collapse navbar-collapse navbar-ex1-collapse" id="rgn-navbar">
-      <ul class="nav navbar-nav">
-        <li><a href="<?php echo BASE_URL; ?>" class="smooth">Home</a></li>
-        <li><a href="<?php echo BASE_URL; ?>about" class="smooth">Restaurant</a></li>
-        <li><a href="<?php echo BASE_URL; ?>lounge" class="smooth">Lounge Bar</a></li>
-        <li><a href="<?php echo BASE_URL; ?>hotel" class="smooth">Hotel</a></li>
-        <li><a href="<?php echo BASE_URL; ?>conferences" class="smooth">Conferences</a></li>
-        <li><a href="<?php echo BASE_URL; ?>gallery" class="smooth">Gallery</a></li>
-        <li><a href="<?php echo BASE_URL; ?>contact" class="smooth">Contact</a></li>
-      </ul>
-    </div>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
   </div>
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="<?php echo BASE_URL; ?>" class="smooth">Home</a></li>
+      <li><a href="<?php echo BASE_URL; ?>about" class="smooth">Restaurant</a></li>
+      <li><a href="<?php echo BASE_URL; ?>lounge" class="smooth">Lounge Bar</a></li>
+      <li><a href="<?php echo BASE_URL; ?>hotel" class="smooth">Hotel</a></li>
+      <li><a href="<?php echo BASE_URL; ?>conferences" class="smooth">Conferences</a></li>
+      <li><a href="<?php echo BASE_URL; ?>gallery" class="smooth">Gallery</a></li>
+      <li><a href="<?php echo BASE_URL; ?>contact" class="smooth">Contact</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
 </nav>

@@ -35,7 +35,7 @@
 <div class="container three home">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4">
-      <a href="#" class="midlink">
+      <a href="<?php echo BASE_URL; ?>conferences/" class="midlink">
         <img src="<?php echo BASE_URL; ?>static/images/home_2.jpg" class="smooth" />
         <span class="smooth">Click to read more</span>
       </a>
@@ -43,7 +43,7 @@
       <p>The White Lion has a private meeting and function room available for hire.</p>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4">
-      <a href="#" class="midlink">
+      <a href="<?php echo BASE_URL; ?>about/" class="midlink">
         <img src="<?php echo BASE_URL; ?>static/images/home_3.jpg" class="smooth" />
         <span class="smooth">Click to read more</span>
       </a>
@@ -51,7 +51,7 @@
       <p>Here you can download our Restaurant Menu, Drinks Book and Wine Cellar List.</p>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4">
-      <a href="#" class="midlink">
+      <a href="<?php echo BASE_URL; ?>gallery/" class="midlink">
         <img src="<?php echo BASE_URL; ?>static/images/home_4.jpg" class="smooth" />
         <span class="smooth">Click to read more</span>
       </a>
